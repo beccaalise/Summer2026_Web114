@@ -12,4 +12,9 @@ const charName =
          "Wanderer"
          );
 
-//
+//Step 6: Pet / Companion
+const pet = prompt(
+  `Every hero needs a companion! What sea creature travels with ${charName}?`,
+  "Sea Dragon"
+  );
+
