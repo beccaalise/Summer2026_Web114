@@ -8,9 +8,8 @@ Our kingdom is full of coral castles, hidden treasures, and mysterious sea creat
 
 //Step 5: Character Name
 const charName =
-  prompt(`What is your character's name?`,
-         "Wanderer"
-         );
+  prompt(`What is your character's name?`, "Wanderer")
+          || "Wanderer";
 
 //Step 6: Pet / Companion
 const pet = 
@@ -58,3 +57,18 @@ console.log(likesFighting, typeof likesFighting);
 alert(`Gathering magic for ${charName}... almost ready!`)
 
 //Step 11: Final Character Story
+alert (`
+====================================
+ADVENTURE CHARACTER STORY
+Name: ${charName}
+Pet: ${pet}
+Superpower: ${superpower}
+Power Level: ${powerLevel}
+Monster Fighter? ${likesFighting ? "Yes" : "No"}
+
+Far below the surface of the sea, ${charName} has become a legend in the Underwater Kingdom.
+With a trusted ${pet} by their side, ${charName} swims through cyrstal-blue waters, discovering lost treasures and helping creatures in need.
+After years of training and honing their ${superpower} powers, ${charName} has become one of the kingdoms greatest heroes.
+Whether battling monsters or exploring unknown depths, ${charName} is always ready for the next adventure.
+====================================
+`);
