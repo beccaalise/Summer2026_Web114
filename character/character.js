@@ -42,3 +42,14 @@ console.log(trainingYears, typeof trainingYears);
 
 //Calculate power level
 const powerLevel = trainingYears * 10;
+
+//Step 9: Likes Fighting Monsters
+const likesFighting = confirm(
+  `Does ${charName} like fighting monsters?
+
+  Click OK for Yes
+  Click Cancel for NO`
+  );
+
+//Log value and type
+console.log(likesFighting, typeof likesFighting);
