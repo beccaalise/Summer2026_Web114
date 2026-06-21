@@ -53,3 +53,8 @@ const likesFighting = confirm(
 
 //Log value and type
 console.log(likesFighting, typeof likesFighting);
+
+//Step 10: Loading Message
+alert(`Gathering magic for ${charName}... almost ready!`)
+
+//Step 11: Final Character Story
