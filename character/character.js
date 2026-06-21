@@ -18,3 +18,9 @@ const pet = prompt(
   "Sea Dragon"
   );
 
+//Step 7: Superpowers
+const superpower = prompt(
+  `What special underwater power does ${charName} possess?`,
+  "Controlling Ocean Currents"
+  );
+
