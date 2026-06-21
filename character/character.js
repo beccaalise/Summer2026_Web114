@@ -13,14 +13,32 @@ const charName =
          );
 
 //Step 6: Pet / Companion
-const pet = prompt(
+const pet = 
+  prompt(
   `Every hero needs a companion! What sea creature travels with ${charName}?`,
   "Sea Dragon"
   );
 
 //Step 7: Superpowers
-const superpower = prompt(
+const superpower = 
+  prompt(
   `What special underwater power does ${charName} possess?`,
   "Controlling Ocean Currents"
   );
 
+//Step 8: Years of Training
+const trainingYearsText = 
+prompt(
+  `How many years has ${charName} been training?`,
+  "5"
+  );
+
+//Covert string to number
+const trainingYears = Number(trainingYearsText);
+
+//Log both values and types
+console.log(trainingYearsText, typeof trainingYearsText);
+console.log(trainingYears, typeof trainingYears);
+
+//Calculate power level
+const powerLevel = trainingYears * 10;
