@@ -22,4 +22,15 @@ switch (favMonth) {
     console.log("You enjoy the summer months!")
   break;
 
-case
+  case "september":
+  case "october":
+  case "november":
+    console.log("Fall is fun with all of the pretty colors.");
+  break;
+
+  case "december":
+  case "january":
+  case "february":
+    console.log("You love the winter months!");
+  break;
+
