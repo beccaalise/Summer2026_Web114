@@ -6,3 +6,20 @@
 
 let favMonth = prompt("What is your favorite month");
 favMonth = favMonth.toLowerCase();
+
+//Step 2: Add case statements depending on the month
+
+switch (favMonth) {
+  case "march":
+  case "april":
+  case "may":
+    console.log("Spring is nice with everything blooming.");
+  break;
+
+  case "june":
+  case "july":
+  case "august":
+    console.log("You enjoy the summer months!")
+  break;
+
+case
