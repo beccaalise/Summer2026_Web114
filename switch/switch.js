@@ -2,12 +2,8 @@
 
 "use strict";
 
-//Step 1: Prompt User Input
-
 let favMonth = prompt("What is your favorite month");
 favMonth = favMonth.toLowerCase();
-
-//Step 2: Add case statements depending on the month
 
 switch (favMonth) {
   case "march":
@@ -34,3 +30,6 @@ switch (favMonth) {
     console.log("You love the winter months!");
   break;
 
+  default:
+    console.log("Other months are interesting too!");
+}
