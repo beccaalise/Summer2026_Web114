@@ -2,7 +2,7 @@
 
 "use strict";
 
-let favMonth = prompt("What is your favorite month");
+let favMonth = prompt("What is your favorite month?");
 favMonth = favMonth.toLowerCase();
 
 switch (favMonth) {
