@@ -1,0 +1,44 @@
+<!--Rebecca Cathey, July 19th 2026 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rebecca Cathey">
+    <meta name="date" coneten="06.21.2026">
+    <title>Mood Changer</title>
+    <link rel="stylesheet" href="moods.css">
+</head>
+  
+  <body>
+    <section>
+        <h1 id="moodTitle">Choose a Mood</h1>
+        <div id="buttons">
+            <button id="happyBtn" class="mood-btn">Happy</button>
+            <button id="calmBtn" class="mood-btn">Calm</button>
+            <button id="angryBtn" class="mood-btn">Angry</button>
+            <button id="sleepyBtn" class="mood-btn">Sleepy</button>
+        </div>
+        <p id="quote">
+            Click a mood button to begin!
+        </p>
+    </section>
+    
+    <section>
+    <h2>Questions</h2>
+    <p><strong>Why is textContent safer than innerHTML?</strong></p>
+    <p>
+        textContent is safer because it only adds plain text to the page. It won't run HTML or JavaScript code, which helps prevent security problems.
+    </p>
+    <p><strong>How are HTML elements connected to JavaScript variables using DOM selection?</strong></p>
+    <p>
+        JavaScript uses DOM selectors like <code>document.querySelector()</code> or <code>document.getElementById()</code> to find an HTML element and save it into a variable so it can be changed later.
+    </p>
+    <p><strong>What would happen to the text box with id="text" if I added this line to the code above it: <code>text.textContent = "Hello!"</code>?</strong></p>
+    <p>
+        The element with the id of <code>text</code> would display the word "Hello!" instead of whatever text was there before.
+    </p>
+</section>
+    <script src="mood.js"></script>
+</body>
+</html>
