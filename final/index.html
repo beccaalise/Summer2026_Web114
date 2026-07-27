@@ -7,10 +7,132 @@
     <meta name="author" content="Rebecca Cathey">
     <meta name="date" coneten="07.26.2026">
     <title>Final Project</title>
-  <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
 </head>
 
-
-
+<body>
+    <header>
+        <h1>Vacation Disaster Mad Libs</h1>
+        <p class="subtitle">
+            Build your own hilarious beach vacation disaster story!
+        </p>
+        <h3 id="greeting"></h3>
+    </header>
+    <main>
+        <section class="card">
+              <h2>Create Your Story</h2>
+                <div class="inputGroup">
+                    <label for="name">Your Name</label>
+                    <input
+                        type="text"
+                        id="name"
+                        placeholder="Enter your name">
+                    <small id="nameCount">0 characters</small>
+                </div>
+                <div class="inputGroup">
+                    <label for="friend">Friend's Name</label>
+                    <input
+                        type="text"
+                        id="friend"
+                        placeholder="Enter your friend's name">
+                </div>
+                <div class="inputGroup">
+                    <label for="place">Beach Location</label>
+                    <input
+                        type="text"
+                        id="place"
+                        placeholder="Example: Hawaii">
+                </div>
+                <div class="inputGroup">
+                    <label for="animal">Beach Animal</label>
+                    <input
+                        type="text"
+                        id="animal"
+                        placeholder="Example: Seagull">
+                </div>
+                <div class="inputGroup">
+                    <label for="food">Favorite Beach Food</label>
+                    <input
+                        type="text"
+                        id="food"
+                        placeholder="Example: Tacos">
+                </div>
+                <div class="inputGroup">
+                    <label for="verb">Verb Ending in "ing"</label>
+                    <input
+                        type="text"
+                        id="verb"
+                        placeholder="Example: Swimming">
+                </div>
+                <div class="inputGroup">
+                    <label for="number">Money Lost ($)</label>
+                    <input
+                        type="number"
+                        id="number"
+                        min="0"
+                        step="0.01"
+                        placeholder="25.00">
+                </div>
+                <div class="inputGroup">
+                    <label for="timeSelect">Choose Your Beach Time</label>
+                    <select id="timeSelect">
+                        <option value="day">Day Beach</option>
+                        <option value="night">Night Beach</option>
+                    </select>
+                    <small>
+                            Click selector then use the arrow keys ↑ and ↓ to change between Day Beach and Night Beach.
+                    </small>
+                </div>
+                <div class="buttonArea">
+                    <button id="storyBtn">
+                        Generate Story
+                    </button>
+                    <button id="resetBtn">
+                        Reset
+                    </button>
+                </div>
+        </section>
+        <section class="card">
+            <h2>Your Story</h2>
+            <p id="story">
+                Fill out the form, then click
+                <strong>Generate Story</strong>.
+            </p>
+            <div class="stats">
+                <h3>Disaster Level</h3>
+                <p id="disasterLevel">
+                    Waiting...
+                </p>
+            </div>
+        </section>
+        <section class="card statsCard">
+            <h2>Vacation Statistics</h2>
+            <p>
+                Stories Created:
+                <span id="storyCount">0</span>
+            </p>
+            <p>
+                Biggest Vacation Loss:
+                $<span id="highestLoss">0.00</span>
+            </p>
+            <p>
+                Today's Date:
+                <span id="today"></span>
+            </p>
+        </section>
+    </main>
+    <footer>
+        <p>
+            JavaScript Final Project | Vacation Disaster Mad Libs
+        </p>
+    </footer>
+    <!--
+    This week, when I sat down at my laptop to decide what I wanted to create for my project, I thought of my dad. Within the past 10 days, he went from being diagnosed with Stage 4 pancreatic cancer to entering hospice care. 
+    The cancer has almost completely consumed his body, and he has less only than two weeks left.
+    It has been incredibly difficult to watch and experience, but we have been making the most of our time together by creating memories and sharing many “lasts.” Since I am an only child, and his only caretaker, this time together has been especially meaningful.
+    My dad inspired this project. We have been doing Mad Libs together all week, so when I saw it as an option for this assignment, I immediately knew it was the perfect choice.
+    The HTML of the project is divided into separate sections for user input, the generated story, and vacation statistics so the JavaScript can easily manipulate the page while keeping the layout organized, readable, and responsive.
+    -->
+</body>
 </html>
