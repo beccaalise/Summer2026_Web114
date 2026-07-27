@@ -1,4 +1,4 @@
-/* Rebecca Cathey -- July 16th 2026 */
+/* Rebecca Cathey -- July 26th 2026 */
 
 /* Color Theme */
 :root {
@@ -209,7 +209,7 @@ footer {
     color: #444;
 }
 
-/* Nigt Beach Styling */
+/* Night Beach Styling */
 .darkTheme {
     background:
         linear-gradient(
@@ -262,13 +262,9 @@ footer {
     color: white;
 }
 .darkTheme select {
-
     background:#F8F9FA;
-
     color:#243B53;
-
     appearance:auto;
-
 }
 .darkTheme input {
     background: #F8F9FA;
